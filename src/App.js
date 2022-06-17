@@ -1,11 +1,20 @@
 
 import './App.css';
-import Header from './components/Header';
+import Catalogs from './components/Catalogs';
+import {Routes,Route} from 'react-router-dom'
+import CatalogBody from './components/CatalogBody';
+
 
 function App() {
   return (
     <div className="App">
-         <Header />
+      <Routes>
+         <Route path='/' element={<Catalogs />}> 
+          <Route index element={<CatalogBody />}></Route>
+         </Route>
+        
+      
+      </Routes>
     </div>
   );
 }
