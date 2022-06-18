@@ -7,7 +7,7 @@ const CatalogBody = () => {
             <div className='bg-white h-[601px] rounded-[6px] mt-[10px]'>
                 <div>
                     <select class="select w-full max-w-xs border border-[#BDBDBD] outline-none ml-[20px] mt-[20px] text-[#404040]">
-                        <option disabled selected>Pick your favorite Simpson</option>
+                        <option  selected>BEST DENKI SHOP</option>
                         <option>Homer</option>
                         <option>Marge</option>
                         <option>Bart</option>
