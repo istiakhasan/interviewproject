@@ -1,4 +1,5 @@
 import React from 'react';
+import CatalogFolderTree from './CatalogFolderTree';
 
 const CatalogBody = () => {
     return (
@@ -17,6 +18,7 @@ const CatalogBody = () => {
                 </div>
                 <div></div>
             </div>
+            <CatalogFolderTree />
         </div>
     );
 };

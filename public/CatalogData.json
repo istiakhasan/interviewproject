@@ -1,0 +1,174 @@
+[
+     
+    {"id":1,"name":"Category Name","children":[
+        {"id":4,"name":"Category Name","children":[
+          
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]}
+        ]},
+        {"id":4,"name":"Category Name","children":[
+          
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]}
+        ]},
+        {"id":4,"name":"Category Name","children":[
+          
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]}
+        ]}
+        
+    ]},
+    {"id":2,"name":"Category Name","children":[
+        {"id":4,"name":"Category Name","children":[
+          
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]}
+        ]},
+        {"id":4,"name":"Category Name","children":[
+          
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+            
+            ]}
+        ]},
+        {"id":4,"name":"Category Name","children":[
+          
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]}
+        ]}
+        
+    ]},
+    {"id":3,"name":"Category Name","children":[
+        {"id":4,"name":"Category Name","children":[
+          
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]}
+        ]},
+        {"id":4,"name":"Category Name","children":[
+          
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]}
+        ]},
+        {"id":4,"name":"Category Name","children":[
+          
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]},
+            {"id":1,"name":"Product Name","children":[
+                {"id":1,"name":"My Product "},
+                {"id":1,"name":"Description "}
+               
+            ]}
+        ]}
+        
+    ]}
+]

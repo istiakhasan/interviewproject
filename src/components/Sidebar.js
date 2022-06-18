@@ -23,7 +23,7 @@ const Sidebar = () => {
   
 return (
 
-<div class="drawer drawer-mobile mt-[10px]">
+<div class="drawer drawer-mobile mt-[10px] h-auto ">
   <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
   <div class="drawer-content  py-[20px] pl-[20px] pr-[47px]">
     <Outlet />
@@ -31,10 +31,10 @@ return (
     <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden">Open drawer</label>
 
   </div>
-  <div class="drawer-side">
+  <div class="drawer-side robin">
     <label for="my-drawer-2" class="drawer-overlay"></label>
 
-    <ul class="menu  px-[20px] overflow-y-auto pt-[10px]   bg-base-100 text-base-content w-[293px]">
+    <ul class="menu  px-[20px] overflow-y-auto pt-[10px]      bg-base-100 text-base-content w-[293px]">
       <div className='flex justify-between items-center mb-[20px]'>
         <div class="avatar">
           <div class="w-[40px] h-[40px] rounded-full">
@@ -59,6 +59,7 @@ return (
 
       ))
       }
+   
 
 
 

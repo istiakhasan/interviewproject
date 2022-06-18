@@ -8,7 +8,7 @@ const SidebarLink = ({item}) => {
       
 
           
-            <li className='w-full  bg-[#F6F6F6]  h-[48px]  mb-[6px] rounded-[6px]'>
+            <li className='w-full   bg-[#F6F6F6]  h-[48px]  mb-[6px] rounded-[6px]'>
                 <div >
                    
 
