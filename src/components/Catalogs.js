@@ -4,11 +4,11 @@ import Sidebar from './Sidebar';
 
 const Catalogs = () => {
     return (
-        <div>
+        <main>
             <Header />
             <Sidebar />
             
-        </div>
+        </main>
     );
 };
 
