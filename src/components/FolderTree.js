@@ -7,7 +7,7 @@ const FolderTree = ({data}) => {
        
         <ul>
           {data.map((tree) => (
-            <TreeNode node={tree} />
+            <TreeNode key={tree.id} node={tree} />
           ))}
         </ul>
      

@@ -23,26 +23,26 @@ const Sidebar = () => {
   
 return (
 
-<div class="drawer drawer-mobile mt-[10px] h-auto ">
-  <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
-  <div class="drawer-content  py-[20px] pl-[20px] pr-[47px]">
+<div className="drawer drawer-mobile mt-[10px] lg:h-auto ">
+  <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+  <div className="drawer-content  py-[20px] lg:pl-[20px] px-4 lg:pr-[47px]">
     <Outlet />
 
-    <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden">Open drawer</label>
+    
 
   </div>
-  <div class="drawer-side robin">
-    <label for="my-drawer-2" class="drawer-overlay"></label>
+  <div style={{maxHeight:"none"}} className="drawer-side  min-h-screen">
+    <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
 
-    <ul class="menu  px-[20px] overflow-y-auto pt-[10px]      bg-base-100 text-base-content w-[293px]">
+    <ul className="menu  px-[20px] overflow-y-auto pt-[10px]      bg-base-100 text-base-content w-[293px]">
       <div className='flex justify-between items-center mb-[20px]'>
-        <div class="avatar">
-          <div class="w-[40px] h-[40px] rounded-full">
+        <div className="avatar">
+          <div className="w-[40px] h-[40px] rounded-full">
             <img className='w-[40px] h-[40px]' src={ProfilePicture} alt="" />
           </div>
         </div>
-        <select class="select  max-w-xs focus:outline-none text-[16px]  text-[#2B2B2B]">
-          <option selected>Alex Jafrar</option>
+        <select className="select  max-w-xs focus:outline-none text-[16px]  text-[#2B2B2B]">
+          <option value={"Alex"}>Alex Jafrar</option>
          
         </select>
         <FontAwesomeIcon className='delete-icon w-[19.88px] h-[21px] text-[#515151]' icon={faGear}></FontAwesomeIcon>
@@ -50,12 +50,12 @@ return (
       <div className='w-full bg-[#F6F6F6]  h-[48px] rounded flex mb-[6px]  items-center ]'>
         <FontAwesomeIcon className='text-[14.25px] ml-[18px] mr-[11.75px] text-[#515151]' icon={faMagnifyingGlass} />
         <input type="text" placeholder="Search"
-          class=" bg-[#F6F6F6] border-none text-[14px] font-[500] text-[#2B2B2B]   outline-none shadow-none " />
+          className=" bg-[#F6F6F6] border-none text-[14px] font-[500] text-[#2B2B2B]   outline-none shadow-none " />
       </div>
 
       {
       menuData.map(item=>(
-      <SidebarLink item={item} />
+      <SidebarLink key={item.id} item={item} />
 
       ))
       }

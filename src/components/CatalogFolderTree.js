@@ -8,12 +8,12 @@ const CatalogFolderTree = () => {
     .then(res=>res.json())
     .then(data=>{
         setCatalogData(data)
-        console.log(data)
+       
     })
  },[])
     return (
-        <section className=' h-auto min-h-[675px]  mt-[20px] grid grid-cols-3 gap-5'>
-            <div className='flex justify-between col-span-2 bg-[#FFFFFF] p-[20px]'>
+        <section className=' h-auto lg:min-h-[675px]  mt-[20px] lg:grid grid-cols-3 gap-5'>
+            <div className='flex flex-col lg:justify-between  lg:flex-row col-span-2 bg-[#FFFFFF] p-[20px]'>
                 <div>
 
                     <h1 className='font-[600] text-[18px] text-[#515151]'>Catalog</h1>
@@ -25,7 +25,7 @@ const CatalogFolderTree = () => {
                         className='btn  btn-secondary text-[14px] font-[600] text-[#FFFFFF] rounded-[6px] h-[40px] py-[10px] px-[20px]'>Add
                         Category</button>
                     <button
-                        className='btn  btn-secondary text-[14px] font-[600] text-[#FFFFFF] rounded-[6px] h-[40px] py-[10px] ml-[14px] px-[20px]'>Add
+                        className='btn  btn-secondary text-[14px] mt-5 lg:mt-0 font-[600] ml-3  text-[#FFFFFF] rounded-[6px] h-[40px] py-[10px] lg:ml-[14px] px-[20px]'>Add
                         Product</button>
                 </div>
             </div>

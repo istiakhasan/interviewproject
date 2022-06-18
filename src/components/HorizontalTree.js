@@ -6,7 +6,9 @@ import NodeArticle from './NodeArticle';
 const HorizontalTree = () => {
     return (
         <div className='col-span-4 pt-5'>
-            <Tree lineWidth={'2px'} lineColor={'#A1AAB1'} lineBorderRadius={'10px'} label={<NodeArticle />}>
+            <div className='w-6/12'>
+
+            <Tree lineWidth={'2px'}   lineColor={'#A1AAB1'} lineBorderRadius={'10px'} label={<NodeArticle />}>
             <TreeNode label={<NodeArticle />}>
             <TreeNode label={<NodeArticle />} />
             <TreeNode label={<NodeArticle />} />
@@ -15,6 +17,7 @@ const HorizontalTree = () => {
             </TreeNode>
             <TreeNode label={<NodeArticle />}></TreeNode>
             </Tree>
+            </div>
         </div>
     );
 };
