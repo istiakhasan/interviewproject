@@ -4,9 +4,13 @@ import { faCaretDown, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 const SidebarLink = ({ item }) => {
   const hasChildren = item.children ? true : false;
   const [click, setclicked] = useState(false);
-  const isActive=item.name.includes("New")
+  const isActive = item.name.includes("New");
   return (
-    <li className={`${isActive?"bg-secondary text-white":"bg-[#F6F6F6]"} w-full  h-[48px]  mb-[6px] rounded-[6px] hover:bg-secondary  hover:text-white`}>
+    <li
+      className={`${
+        isActive ? "bg-secondary text-white" : "bg-[#F6F6F6]"
+      } w-full  h-[48px]  mb-[6px] rounded-[6px] hover:bg-secondary  hover:text-white`}
+    >
       <div>
         {hasChildren && (
           <div className="w-[15px]">
@@ -21,13 +25,10 @@ const SidebarLink = ({ item }) => {
           className="mr-[13.4px]  text-[15px]"
           icon={item.icon}
         />
-        <p className={` text-[14px] w-[98px] font-[500]  `}>
-          {item.name}
-        </p>
+        <p className={` text-[14px] w-[98px] font-[500]  `}>{item.name}</p>
       </div>
       <div className="h-full ">
-
-      {item.addIcon && <FontAwesomeIcon icon={item.addIcon} />}
+        {item.addIcon && <FontAwesomeIcon icon={item.addIcon} />}
       </div>
     </li>
   );
