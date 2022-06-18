@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faGear,faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import {faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import Logo from '../images/Ubbu Brand.png'
 
 const Header = () => {
     return (
         <div>
-            <div class="navbar bg-white h-[88px]">
+            <div class="navbar bg-white h-[88px] shadow-lg ">
                 <div class="navbar-start">
 
                     <img className='ml-[99px]  w-[96px] h-[48px] ' alt='' src={Logo} />
